@@ -37,8 +37,6 @@ $meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', '
 $hoje = $dias[date('w')] . ', ' . date('j') . ' de ' . $meses[date('n')-1];
 ?>
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -139,4 +137,5 @@ $hoje = $dias[date('w')] . ', ' . date('j') . ' de ' . $meses[date('n')-1];
 </div>
 
 </body>
+
 </html>
